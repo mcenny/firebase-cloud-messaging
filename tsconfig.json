@@ -18,6 +18,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "public/firebase_sw.js", "utils/firebase.js", "pages/messaging_init_in_sw.js", "firebase/firebase.ts", "firebase/messaging.js"],
   "exclude": ["node_modules"]
 }
